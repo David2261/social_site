@@ -1,0 +1,34 @@
+
+
+
+
+
+<style>
+.home-container{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+</style>
+
+<h1><em>HOME PAGE</em></h1>
+
+<div class="home-container">
+
+	<div>
+		
+	</div>
+	<div>
+		<h5>{{ room_count }} rooms available</h5>
+		<a href="{% url 'create-room' %}">Create Room</a>
+		
+	</div>
+
+	<div>
+		
+	</div>
+
+	
+</div>
+<!-- {% url 'имя (есть обозначить view отдельного приложения, то приложение:имя' имя.id(pk или как описывается)
+ %} -->
+
